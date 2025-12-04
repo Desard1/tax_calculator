@@ -1,0 +1,17 @@
+
+body {
+    background-color: #81b3e4; 
+}
+
+
+#result {
+    background-color: #ffffff; 
+    color: #333; 
+}
+
+
+@media (max-width: 576px) {
+    .d-flex.justify-content-between button {
+        width: 48%;
+    }
+}
