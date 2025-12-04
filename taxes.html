@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Tax Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h2>Simple Tax Calculator</h2>
+
+    <label>Enter Amount (€):</label>
+    <input type="number" id="amount" placeholder="Enter money amount">
+
+    <label>Select Country:</label>
+    <select id="country">
+        <option value="0.25">Germany (25%)</option>
+        <option value="0.10">Albania (10%)</option>
+        <option value="0.20">Italy (20%)</option>
+        <option value="0.30">France (30%)</option>
+    </select>
+
+    <button id="calculateBtn">Calculate</button>
+
+    <div id="result"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
